@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>六角學院</title>
+	<link rel="stylesheet" href="JQ1.css">
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="all.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <link href="lightbox.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+<div class="topli">
+	<ul>
+		<li><a href="#"><img src="fbicon.png"></a></li>
+		<li><a href="#" class="line">粉絲團</a></li>
+		<li><a href="#"><img src="twittericon.png"></a></li>
+		<li><a href="#" class="blue1">追隨我們</a></li>
+	</ul>
+</div>
+<div class="li">
+	<a><img src="001_03.jpg"></a>
+<ul class="menu">
+	<li><a href="#">首頁</a></li>
+	<li><a href="#" class="dropdown">產品介紹</a>
+		<ul class="dropopen">
+			<li><a href="#">html&css</a></li>
+			<li><a href="#">JavaScript</a></li>
+			<li><a href="#">Sass</a></li>
+		</ul>
+	</li>
+	<li><a href="#">聯絡我們</a></li>
+</ul>
+</div>
+<!-- Slider main container -->
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="002_02.jpg"></div>
+        <div class="swiper-slide"><img src="002_02.jpg"></div>
+        <div class="swiper-slide"><img src="002_02.jpg"></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+</div>
+<div class="img2">
+	<a href="002_05.jpg" data-lightbox="roadtrip"><img src="002_05.jpg"></a>
+	<a href="002_07.jpg" data-lightbox="roadtrip"><img src="002_07.jpg"></a>
+	<a href="002_09.jpg" data-lightbox="roadtrip"><img src="002_09.jpg"></a>
+</div>
+<div class="fweight"><p>線上與實體課程之差異</p></div> 
+<div class="table">
+<table>
+	<tr>
+		<th>項目</th>
+		<th>六角線上課程</th>
+		<th>一般線上課程</th>
+		<th>實體課程</th>
+	</tr>
+	<tr>
+		<th>費用</th>
+		<th class="green">較低</th>
+		<th class="green">較低</th>
+		<th>較高</th>
+	</tr>
+	<tr>
+		<th>學習效果</th>
+		<th>一般</th>
+		<th class="green">較低</th>
+		<th class="green">很好</th>
+	</tr>
+	<tr>
+		<th>Code review</th>
+		<th class="green">有</th>
+		<th>無</th>
+		<th>不一定</th>
+	</tr>
+	<tr>
+		<th>課程更新速度</th>
+		<th class="green">普通</th>
+		<th class="green">普通</th>
+		<th>較慢</th>
+	</tr>
+	<tr>
+		<th>多次複習</th>
+		<th class="green">可</th>
+		<th>可</th>
+		<th>不可</th>
+	</tr>
+	<tr>
+		<th>字幕</th>
+		<th class="green">有</th>
+		<th>不一定</th>
+		<th>板書</th>
+	</tr>
+</table>
+</div>
+<div class="ask">
+	<p class="center">對我們的課程有興趣嗎？<br>歡迎留下您的資料</p>
+	<form>
+	<textarea name="message" rows="12" cols="60" class="mesb"></textarea>
+	<p class="right">
+	姓名<br>
+	<input type="text" name="name"><br>
+	電話<br>
+	<input type="text" name="phone"><br>
+    信箱<br>
+    <input type="text" name="email"><br>
+    <input type="submit" value="送出" class="button">
+    </form></p>
+</div>
+<div class="end">
+	<span>
+    <img src="001_03.jpg">
+    </span>	
+	<span class="bluer">hexschool@gmail.com</span>
+	<span class="phone">聯絡我們：</span><br>  
+	<span class="bluer">0999123456</span>
+	<span class="phone">電話：</span>
+</div>
+<div class="ad">
+	<p>廣告</p>
+	<a href="#" class="adc">關閉</a>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+<script src="lightbox.js"></script>
+<script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+      'maxwidth': 620,
+      'maxheight': 670,
+    })
+</script>
+</body>
+</html>
